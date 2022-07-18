@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:url("railstation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.pallet-div{
+    margin-top: 260px;
+    
+}
+
+h1{
+    font-size: 44;
+    font-weight: bold;
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height:30px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#increment-btn{
+    margin-left: 750px;
+    background-color: darkred;
+    border: solid 1px darkred ;
+    color: white;
+}
+
+#save-btn{
+    background-color: darkgreen;
+    color: white;
+    border: solid 1px darkgreen ;
+}
+
+#save-el{
+    margin-top: 20px;
+    margin-left: 700px;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
